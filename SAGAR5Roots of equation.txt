@@ -1,0 +1,105 @@
+//Name:SAGAR TUNGAR
+//Roll NO:FYE217
+//Batch :C
+//Aim:Roots of equation and its nature
+
+#include<iostream.h>
+#include<conio.h>
+#include<math.h>
+
+class check
+{
+public:
+float a,b,c,d,e,f,g,h;
+void get_a();
+void get_b();
+void get_c();
+void root()
+}
+void check::geta()
+{
+cout<<"Enter coefficient of x^2\n";
+cin>>a;
+}
+void check::getb()
+{
+cout<<"Enter coefficient of x\n";
+cin>>b;
+}
+void check::getc()
+{
+cout<<"Enter the constant\n";
+cin>>c;
+}
+void check::root()
+{
+d=pow(b,2);
+h=d-(4*a*c);
+
+if((d-(4*a*c))>=0)
+{cout<<"The roots are real and they are\n";
+  e=sqrt(h);
+f=(-b+e)/(2*a);
+g=(-b-e)/(2*a);
+cout<<f<<"  "<<g;
+
+
+}
+else{cout<<"The roots are imaginary";}
+}
+void main()
+{
+check m;
+m.geta();
+m.getb();
+m.getc();
+m.root();
+}
+
+Enter coefficient of x^2
+1
+Enter coefficient of x
+2
+Enter the constant
+3
+The roots are imaginary
+
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+
+
+
